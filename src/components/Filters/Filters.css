@@ -1,0 +1,5 @@
+.filters__row{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}

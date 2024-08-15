@@ -1,0 +1,9 @@
+.actors {
+  color: white;
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.movie__actors__row {
+  margin-top: 20px;
+}

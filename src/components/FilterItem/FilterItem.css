@@ -1,0 +1,45 @@
+.filter__item {
+  color: white;
+  padding: 10px 28px;
+  border: 1px solid #ef76b9;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.active{
+  color: white;
+  padding: 10px 28px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #ef76b9;
+}
+
+.filter__item:hover{
+  color: white;
+  padding: 10px 28px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #ef76b9;
+  transition: all 0.7s ease;
+}
+
+.active, .filter__item:hover{
+  cursor: pointer;
+}

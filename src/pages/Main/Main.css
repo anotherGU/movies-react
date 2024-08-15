@@ -1,0 +1,21 @@
+.fullscreen {
+  height: 100vh;
+  background-color: rgb(6, 7, 22);
+  position: relative;
+  padding-top: 30px;
+}
+
+
+.poster {
+  background-image: url(/public/images/1344566.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55%;
+  -webkit-box-shadow: inset 24px -11px 27px 25px rgba(6, 7, 22, 2);
+  -moz-box-shadow: inset 24px -11px 27px 25px rgba(6, 7, 22, 2);
+  box-shadow: inset 24px -11px 27px 25px rgba(6, 7, 22, 2);
+}

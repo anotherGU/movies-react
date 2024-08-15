@@ -1,0 +1,6 @@
+.actor__pic {
+  width: 173px;
+  height: 173px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,41 @@
+.trends {
+  background-color: rgb(6, 7, 22);
+}
+
+.trends__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.trends__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trends__more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trends__see__more {
+  color: #228ee5;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.trends__arrow {
+  color: #228ee5;
+  font-size: 24px;
+}
+
+.trends__row {
+  display: flex;
+  margin: 0 -20px;
+}
+
+.trends__see__more a {
+  color: #228ee5;
+}

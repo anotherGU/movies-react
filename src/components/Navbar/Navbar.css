@@ -1,0 +1,40 @@
+.glass {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 0.5px solid rgba(62, 62, 243, 0.767);
+  border-radius: 20px;
+  padding: 20px 0 20px 0;
+  color: white;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.nav__links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav__links a {
+  color: white;
+}
+
+.nav__link {
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.ico {
+  font-size: 35px;
+}
+
+.nav__menu {
+  display: flex;
+  gap: 32px;
+}
+
+.nav__menu__item {
+  font-size: 35px;
+}

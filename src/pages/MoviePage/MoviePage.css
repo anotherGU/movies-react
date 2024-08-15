@@ -1,0 +1,76 @@
+.movie__page__fullscreen {
+  height: 100vh;
+  background-color: rgb(6, 7, 22);
+  width: 100%;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: var(--backdrop-image);
+  -webkit-box-shadow: inset 2px -20px 28px 4px rgba(6, 7, 22, 2);
+  -moz-box-shadow: inset 2px -20px 28px 4px rgba(6, 7, 22, 2);
+  box-shadow: inset 2px -20px 28px 4px rgba(6, 7, 22, 2);
+}
+
+.movie__title1 {
+  color: white;
+  font-size: 5rem;
+}
+
+.movie__time {
+  font-size: 1.8rem;
+  margin-top: 25px;
+}
+
+.about__title {
+  color: white;
+  font-size: 3rem;
+}
+
+.about__paragraph {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  line-height: 2rem;
+}
+
+.movie__genre {
+  color: white;
+  padding: 10px 28px;
+  border-radius: 20px;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ef76b9;
+}
+
+.genres__row {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.genres {
+  color: white;
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.suggestion__title {
+  color: white;
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.suggestion__movies__row {
+  padding-top: 20px;
+}
+
+.movie__production__companies__row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}

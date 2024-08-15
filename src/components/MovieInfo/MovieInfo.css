@@ -1,0 +1,53 @@
+.movie__info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.movie__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.movie__plot {
+  font-size: 1.2rem;
+  width: 40%;
+  font-weight: medium;
+  line-height: 1.4rem;
+  margin-top: 20px;
+}
+
+.movie__buttons {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.movie__play {
+  background-color: #228ee5;
+  display: flex;
+  gap: 11px;
+  padding: 13px 20px 13px 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.movie__more__info {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  border: 1px solid #228ee5;
+  padding: 12px 19px 12px 19px;
+  border-radius: 20px;
+}
+
+.movie__logo {
+  width: 400px;
+}
+
+.movie__rating {
+  margin-top: 10px;
+}
